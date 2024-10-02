@@ -19,4 +19,11 @@ In 1959, Marvin Minsky started the MIT Artificial Intelligence Laboratory. He co
 
 About the same time, the prominent linguist Noam Chomsky made advancements in formal language theory and the idea of universal grammar as well as Chomsky hirearchy that helped the development of Natural Language Processing (NLP). 
 
+### Key AI institutions
+The most prominent institutions in the past and nowadays, are MIT and Dartmouth College as well as IBM, Intel and American government-sponsored security projects and institutions. 
+
+### Key disciplines contributing to AI research and development
+There are 4 main disciplines that have contributed to the development of AI: 
+- **Decision theory:** the field that combines mathematical probability and economic utility. This field helps AI make decisions based on uncertainty and trade-offs. It is the stydy of how agents make choices given some constraints, some available information, preferences and possible outcomes.
+- **Game theory:** 
 
