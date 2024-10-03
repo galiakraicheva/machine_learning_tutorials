@@ -31,5 +31,20 @@ There are 4 main disciplines that have contributed to the development of AI:
 
 Historically, AI algorithms and programs were written mainly in Lisp (created by John McCarthy), later Prolog and now Python. 
 
-## AI Winters
+## 1960s: Early AI Optimism and the Symbolic AI emphasis
+**Symbolic AI** is based on the idea that reasoning can be put into formal rules and manipulation of symbols. The goal was to encode human reasoning into formal rules that machines can execute. It was believed that a computer can solve any problem that humans can if it was given enought rules and data. It had some success with very controlled environments like playing chess or giving limited verbal commands to a computer but failed in the real world. The complexity of the real world soon made these attempts of formalizing through rules unmanageable. In addition to the lack of computing power, these systems were doomed. 
+
+## Late 1970s: First AI Winter (the Fall of Symbolic AI)
+Disappointment due to the failure of symbolic AI to perform satisfactory in general purpose tasks. For example, US and UK government inspected the progress on machine translation from Russian and the AI failed to understand the context. For example, it translated phrases as "out of sigh, out of mind" as "invisible idiot". 
+
+Reason for the fall: powerful algorithms but not enough data and computing power. 
+
+## Early 1980s: The Rise of Expert Systems
+After the fall of symbolic AI, there was a paradigm shift. In response to the fail to tackle general purpose tasks, the AI community decided to narrow down the scope and focus on expert systems. Expert systems focus on providing rules and knowledge only on a limited subject and giving very specific well-defined tasks. Such AI sustems were used in healthcare (for example: to spot bacterial infections according to symptoms and lab results and to perscribe antibiotics), in finance and manifacturing. MIT created the Lisp machine that was optimised for running Lisp and had advanced developer tools for symbolic AI development. 
+
+## Late 1980s - Early 1990s: Second AI Winter (the Fall of Expert Systems)
+Despite the initial excitement, the limitations of the expert systems soon became apperent. These systems couldn't improve after a certain point and could not adapt or generalise on new data. This made keeping the expert knowledge database and the rule system very expensive to maintain. The Lisp machine project failed because the Lisp machines were costly compared to the newly developed workstation and personal computers. These new machines run UNIX and could provide even faster speed of execution of Lisp programs than the Lisp machines. 
+
+Reasons for the Second AI Winter: powerful algorithms, better computing power, little data available
+
 
