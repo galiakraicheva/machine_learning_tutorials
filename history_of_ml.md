@@ -22,7 +22,7 @@ About the same time, the prominent linguist Noam Chomsky made advancements in fo
 ### Key AI institutions
 The most prominent institutions in the past and nowadays, are MIT and Dartmouth College as well as IBM, Intel and American government-sponsored security projects and institutions. 
 
-### Key disciplines contributing to AI research and development
+### Key disciplines contributing to AI's separation in a new discipline
 There are 4 main disciplines that have contributed to the development of AI: 
 - **Decision theory:** the field that combines mathematical probability and economic utility. This field helps AI make decisions based on uncertainty and trade-offs. It is the stydy of how agents make choices given some constraints, some available information, preferences and possible outcomes.
 - **Game theory:** this field is very connected to AI especially in situations where AI should interact with other agents and make decisions based on the behavour of another agent (competitive or cooperative environments). For example, self-driving cars operate in a cooperative environment with other cars on the road or chess-players try to outsmart each other.
