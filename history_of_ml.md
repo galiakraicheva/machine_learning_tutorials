@@ -25,5 +25,7 @@ The most prominent institutions in the past and nowadays, are MIT and Dartmouth 
 ### Key disciplines contributing to AI research and development
 There are 4 main disciplines that have contributed to the development of AI: 
 - **Decision theory:** the field that combines mathematical probability and economic utility. This field helps AI make decisions based on uncertainty and trade-offs. It is the stydy of how agents make choices given some constraints, some available information, preferences and possible outcomes.
-- **Game theory:** 
+- **Game theory:** this field is very connected to AI especially in situations where AI should interact with other agents and make decisions based on the behavour of another agent (competitive or cooperative environments). For example, self-driving cars operate in a cooperative environment with other cars on the road or chess-players try to outsmart each other.
+- **Neuroscience:**: the two fields of neuroscience and AI both seek to explain intelligence, cognition and reasoning and have influenced each other profoundly. A very obvious example is the creation of artificial neural networks that mimics the way the brain work. Just as the neurons in the human brain operate and strenghten or weaken connections between them so does an artifical neural network has 'neurons', organised in layers that are connected by weights that change over time with activity.
+- **Linguistics:** this field is connected to AI in a subfield, called Natural LAnguage Processing that aims at making computers understand and replicate speech and written text. Examples include: context free grammars and dependency parsing that are used in AI models. 
 
