@@ -45,11 +45,36 @@ After the fall of symbolic AI, there was a paradigm shift. In response to the fa
 There are 3 approaches to expert systems: 
 1. **Case-based systems:** in case-based reasoning, the system decided what to do based on a database of past cases. If the case is new, it finds the most similar past case and tries to adapt the solution to the new situation. For example: A medical perscription based on the previous case with similar symptoms. It is good, if the field doesn't allow formal rule definition and it is addaptable to change. It is bad, if you lack extensive well-labeled data. 
 2. **Rule-based systems:** in rule-based reasoning, all decisions are taken based on strict if-then rules. For example, a system about computer diagnosis may take decisions based on rules like "If the computer doesn't start AND there is electricity coming up to the CPU AND there is no electricity coming out of the CPU, THEN replace the CPU.". They are good, if there are strict system rules. They are bad, if they need to be extended or the complexity of the rules increases. 
-3. **Model-based systems:** 
+3. **Model-based systems:** in model-based reasoning, the system uses a predefined model to test against the real-world data and to make decisions what to do. For example, if it is a car diagnosis system, it can have a model of all the car components and how they interact. The system then might decide which parts are broken, comparing the behaviour of the parts with the model that it expects. It is good, for complex systems that are difficult to put in formal rules. It is bad because it requires a lot of computational intensity. 
 
 ## Late 1980s - Early 1990s: Second AI Winter (the Fall of Expert Systems)
 Despite the initial excitement, the limitations of the expert systems soon became apperent. These systems couldn't improve after a certain point and could not adapt or generalise on new data. This made keeping the expert knowledge database and the rule system very expensive to maintain. In addition, with the growth of the knowledge base, it was very difficult to write rules that don't knotradict each other. The Lisp machine project failed because the Lisp machines were costly compared to the newly developed workstation and personal computers. These new machines run UNIX and could provide even faster speed of execution of Lisp programs than the Lisp machines. 
 
 Reasons for the Second AI Winter: powerful algorithms, better computing power, little data available
+
+## Middle 1990s: Revival of the Interest in AI and First Neural Networks
+The Second AI winter brought another paradigm shift. Instead of expert systems, the new focus was on connectionism. The first neural networks were developed to mimic the human brain. Neural networks were theorised as early as the 1950s but were impossible to happen due to computational limitations. In 1986 was developed the **backpropagation algorithm** that made the neural networks more precise. Blackpropagation algorithm allows the neural network to learn from the errors, changing the weights that 'connect' the different 'neurons' just as neuroplasticity changes the strenght of the connections between the neurons depending on the work the brain does. However, in the 1990s there was still a lack of big datasets and limited computational power. 
+
+## 2000s: The Big Data Revolution, Data-Driven AI and Machine Learning
+The natural continuation of the paradigm of connectionism found its continuation in the machine learning paradigm. In the mid 2000s big companies like Facebook, Google and Amazon started collecting vast amounts of data. The smart phones were invented and that gave a push of data-driven machine learning techniques. Instead of relying on hand-written rules, machines wer left to discover patterns by themselves by analysing large datasets. Support Vector Machines and Decision trees were popular algorithms at that time for classification and regression tasks. 
+
+The most popular algorithms in the 2000s were still limited in complexity to handle more advanced data like big picture datsets or NLP. 
+
+## 2010s: Deep Learning Revolution
+With the advancements in computational power and the big datasets available, paradigm shifter to deep learning. **Deep learning** is a subset of machine learning that deals with neural networks with many layers (hence the name "deep").
+
+The key breakthroughs in AI in the years 2010-2020: 
+- Improved Convolutional Neural Networks that became the foundation of the modern computer vision systems.
+- Recurrent Neural Networks (RNNs) and Long Short-Term Memory Machines (LSTMs): these architectures are used to handle sequential data like speech and text recognition. They were very successful in machine translation and speech recognition.
+- AlphaGo (2016): the computer algorithm developed by DeepMind won over the human champion in Go, so it showed that computers can have superhuman performance in specific complex stratigic tasks.
+- Voice assistante like Siri and Alexa showed everyday business success of deep learning.
+
+Problems of deep learning: 
+Although powerful, it requires vast amount of training data and computational resources. From ethical side, it lack explainability and is difficult to understand making it dangerous for areas like healthcare or finance. 
+
+## 2020s-Present: Focus on General AI and Ethical AI
+Most of the AI nowadays is **Narrow or weak AI**: meaning that it has only specialised in one particular task and event thoug it can be superior to humans in it, is fails in other domains. For example, an AI that is excellent in Chess, will fail to play Go unless it is especially programmed to do that. **Artificial General Intelligence** is an AI that possesses human-like intelligence in all aspects humans can perform well in. As it may mean also developing emotions, feelings, motivation or self-awereness, the field of ethical AI is crucial to humanity's progress and safety. 
+
+
 
 
