@@ -7,8 +7,23 @@ Modern AI systems are present in every aspect of our lives even without us knowi
 
 ## What are Modern AI Systems Used For? 
 
-### Healthcare and Pharma
--detects diseases
--monitior patients
+### Healthcare and Pharma: The Fastest Growing Area Adopting AI
+- detects diseases
+- monitior patients
 - optimise perscriptions
 - wearables can help monitoring, look for anomalies and call emergency if such appear
+
+### Telecommunication and AI: 
+- automates networks
+- optimises networks
+- checks networks' health and safety
+- fixes networks before they get broken
+- prevents fraudulent behaviour (trained on big data)
+
+## Car Industries and AI: 
+- sensors to the car to stay in lane
+- emergency brakes
+- technical problems sensors
+- driver's risky behaviour (like fatigue, alcohol)
+- self-driving features
+- in production, ensures safe production line and assembly better than humans
