@@ -3,7 +3,7 @@ This is a repository for a machine learning tutorials that I have made based on 
 
 1) ML Introduction: a tutorial about the main types of ML projects and the basics for each of them
 - [Introduction 1: a quick history of ML and its development](https://github.com/galiakraicheva/machine_learning_tutorials/blob/main/history_of_ml.md)
-- Intoduction 2: Modern AI Systems
+- Intoduction 2: Modern AI Systems: Use and Evaluation
 - Reinforcement learning
 - NLP
 - Computer Vision
