@@ -58,4 +58,4 @@ The avaiable data should be split in three sets:
 All the three sets must be separate from each other and no data should be in more than one set. They should have a similar distribution like the original dataset. 
 
 ### Sample evaluation metrics in binary classification task
-1.  $Accuracy = \frac{TP + TN}{TP + TN + FP + FN} = \frac{TP + TN}{all samples}$ -> the percentage of total predictions that were correct
+1.  $Accuracy = \frac{TP + TN}{TP + TN + FP + FN} = \frac{TP + TN}{\text{all\ samples}}$ -> the percentage of total predictions that were correct
