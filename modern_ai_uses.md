@@ -59,4 +59,4 @@ All the three sets must be separate from each other and no data should be in mor
 
 ### Sample evaluation metrics in binary classification task
 1.  $Accuracy = \frac{TP + TN}{TP + TN + FP + FN} = \frac{TP + TN}{\text{all\ samples}}$ -> the percentage of total predictions that were correct
-2.  $Precision = \frac{TP}{TP + FP} = \frac{text{true\ possitives}}{text{all\ classified\ as\ possitive}}$
+2.  $Precision = \frac{TP}{TP + FP} = \frac{\text{true\ positives}}{\text{all\ classified\ as\ possitive}}$
