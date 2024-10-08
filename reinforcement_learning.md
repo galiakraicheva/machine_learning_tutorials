@@ -1,4 +1,4 @@
-##Basic Machine Learning Techniques
+## Basic Machine Learning Techniques
 
 There are three techniques in Machine learning to train a model: 
 1. Supervised Learning:
