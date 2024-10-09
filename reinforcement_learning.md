@@ -30,4 +30,16 @@ The goal of the agent is to maximise the reward it receives during the learning 
 Finding the balance between exploration and exploitation is one of the challenges in reinforcement learning and is often solved by $ε$-greedy strategy, where the agent most often chooses the knowln strategy but occasionally it prefers to explore. 
 
 ## The Reinforcement Learning Process: Markov Decision Process (Markov's Chain)
+**Markov Decision Process: **
+- a way to formalise the sequential decision making
+- used when outcomes are partly random and partly under the control of the decision maker
+- the most common way to model the reinforcement learning process
+
+#### Why is this method so preferred?
+A state is said to have the Markov property if it holds all the relevant information about past actions. Therefore, all the necessary information about making a decision is held in the present state. The process is memoriless. in reinforcement learning, all decisions are also a function of the present state.
+
+Further explanation: 
+
+**Key terms in Markov Decision Process: **
+-
 
