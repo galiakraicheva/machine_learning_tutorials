@@ -12,7 +12,7 @@ There are three techniques in Machine learning to train a model:
 3. Reinforcement Learning:
    - algorithms improve themselves by interacting with the environmen, no predefined data required. The agent learns on an unknown set of data by the rewards it gets from the environment
   
-This chapter is about reinforcement learning. 
+This chapter is about reinforcement learning. It mimics the way humans and animals learn. For example, a child learns not to touch hot plate after he/she touches the hot plate a several times and learns that this hurts. A dog learns to give a paw after it is given biscuits everytime it gives a paw. 
 
 ## Reinforcement Learning Basic Terms
 - Agent: the algorithm that performs actions in the environment
@@ -22,3 +22,12 @@ This chapter is about reinforcement learning.
 - Reward (R): An immediate feedback signal from the environment.
 - Policy ($\pi$): the strategy that the agent follows to determine which action to take. It can be **deterministic:** everytime the agent is in the current state, it chooses the same strategy or **stochastic:** the agent chooses among the actions with certain probabilities
 - Value Function (F): a function that estimates the long-term rewards that can be accumulated with any given state. It allows the agent to plan for the future.
+
+The goal of the agent is to maximise the reward it receives during the learning process. In that sense, the algorithm should choose a strategy that it knows if beneficial. However, it should also decide if it wants to explore new strategies or rely on strategies it knows to be beneficial. These are called: 
+- Exploration: Trying out new strategies to discover more about the environment and potentially find more beneficial  strategies than the current ones. 
+- Exploitation: using the knowledge the agent already has to maximise the reward
+
+Finding the balance between exploration and exploitation is one of the challenges in reinforcement learning and is often solved by $ε$-greedy strategy, where the agent most often chooses the knowln strategy but occasionally it prefers to explore. 
+
+## The Reinforcement Learning Process: Markov Decision Process (Markov's Chain)
+
