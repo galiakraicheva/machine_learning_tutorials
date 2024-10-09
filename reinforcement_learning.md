@@ -38,8 +38,10 @@ Finding the balance between exploration and exploitation is one of the challenge
 #### Why is this method so preferred?
 A state is said to have the Markov property if it holds all the relevant information about past actions. Therefore, all the necessary information about making a decision is held in the present state. The process is memoriless. in reinforcement learning, all decisions are also a function of the present state.
 
-Further explanation: 
+Further explanation: it might seem that the actual idea of learning contradicts the memoriless decision making. If an agent learns the best strategy how does it make memoriless decisions? The idea is that the knowledge is encoded in the expected rewards and the transitional probabilities of the state. For example, an agent learning to play chess can know the best strategy for the currrent state but doesn't need to remember how it got there and all the games it played that led to the same situation in which it had to decide. 
 
 **Key terms in Markov Decision Process:**
--
+- States (S): same as in RL
+- Actions (A): same as in RL
+- 
 
