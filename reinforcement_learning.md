@@ -59,4 +59,9 @@ Even without carefully looking at the formula, it is obvious that is sums up som
 -A higher discount rate tells the agent to be more patient now and to value future rewards more. 
 -A lower discount rate tells the agent to favour immediate rewards. 
 
-At each step, the discount rates slighly decrease given the Marginal benefit economic theories. 
+At each step, the discount rates slighly decrease given the Marginal benefit economic theories. The discount rate is importent because it lets agents make smarter strategies. For example, a chess playing agent can sacrifice a piece to win a better position or to win the game. 
+
+Explaining the formula further: 
+T: the terminal state, the one that ends the episode
+k: the number of steps from the current moment. The second formula is the generalisation for an infinate game scenario with k from 0 to $\infty$. 
+$\gamma^k$: 
