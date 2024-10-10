@@ -64,4 +64,7 @@ At each step, the discount rates slighly decrease given the Marginal benefit eco
 Explaining the formula further: 
 - T: the terminal state, the one that ends the episode
 - k: the number of steps from the current moment. The second formula is the generalisation for an infinate game scenario with k from 0 to $\infty$.
-- $\gamma^k$: 
+- $\gamma^k$: as we speak about more distant state, the expected reward become less because it is raised to a bigger power. It is like that because of the more uncertain future state.
+
+## Common Algorithms in Reinforcement Learning
+### Q-Learning
