@@ -43,5 +43,6 @@ Further explanation: it might seem that the actual idea of learning contradicts 
 **Key terms in Markov Decision Process:**
 - States (S): same as in RL
 - Actions (A): same as in RL
-- 
+- Transition Probabilities (P): the probabilities of transitioning from one state to another, given the action
+- Reward (R): the reward function that provides feedback at any transition to a new state. 
 
