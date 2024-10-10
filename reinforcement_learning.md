@@ -55,4 +55,8 @@ The value function for a given policy $\( \pi \)$ is defined as:
 
 ![Value Function Formula](https://github.com/galiakraicheva/machine_learning_tutorials/blob/main/Value%20Function%20RL%20(credit%20IUAS).png)
 
-where $\gamma$ is the discount rate. 
+Even without carefully looking at the formula, it is obvious that is sums up something. In this case, the expected future rewards for the states onwards. However, rewards in distant future can be less valued or less certain than the present rewards so we introduce the **discount rate**: $\gamma$. The discount rate is a number between 0 and 1 and tells the agent how much it should value future rewards. 
+-A higher discount rate tells the agent to be more patient now and to value future rewards more. 
+-A lower discount rate tells the agent to favour immediate rewards. 
+
+At each step, the discount rates slighly decrease given the Marginal benefit economic theories. 
