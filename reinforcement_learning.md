@@ -53,4 +53,4 @@ Further explanation: it might seem that the actual idea of learning contradicts 
 
 The value function for a given policy \( \pi \) is defined as:
 
-![Value Function Formula](path_to_image/value_function.png)
+![Value Function Formula](https://github.com/galiakraicheva/machine_learning_tutorials/blob/main/Value%20Function%20RL%20(credit%20IUAS).png)
