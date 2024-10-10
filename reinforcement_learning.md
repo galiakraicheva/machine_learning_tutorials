@@ -74,4 +74,6 @@ V^π(s) = E_π [ Σ (γ^k * r_{t+k+1}) | s_t = s ]
 
 where γ is the discount rate, with 0 ≤ γ ≤ 1, representing the degree to which future rewards are discounted.
 
+The value function for a given policy \( \pi \) is defined as:
 
+![Value Function Formula](path_to_image/value_function.png)
