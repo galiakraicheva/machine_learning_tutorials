@@ -51,4 +51,18 @@ Further explanation: it might seem that the actual idea of learning contradicts 
 -this means it is contained and the information it holds is contained in the present state (no contradiction with Markov property
 -**value of a state**: how beneficial it is for the agent to be in that state, considering immediate rewards and future rewards it can gain, if it takes the right actions from here on. For example: in a chess game, being in a strong position in the center may not lead to winning immediately but may be more beneficial for future winning because it often leads to better moves and rewards in future. 
 
+The value function for a given policy \( \pi \) is defined as:
+
+\[
+V^\pi(s) = \mathbb{E}_\pi \left[ r_{t+1} + \gamma r_{t+2} + \gamma^2 r_{t+3} + \cdots + \gamma^{T-1} r_T \mid s_t = s \right]
+\]
+
+This can be expressed as:
+
+\[
+V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k r_{t+k+1} \mid s_t = s \right]
+\]
+
+where \( \gamma \) is the discount rate, with \( 0 \leq \gamma \leq 1 \), representing the degree to which future rewards are discounted.
+
 
