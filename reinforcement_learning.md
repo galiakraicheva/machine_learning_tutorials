@@ -55,4 +55,4 @@ The value function for a given policy $\( \pi \)$ is defined as:
 
 ![Value Function Formula](https://github.com/galiakraicheva/machine_learning_tutorials/blob/main/Value%20Function%20RL%20(credit%20IUAS).png)
 
-
+where $\gamma$ is the discount rate. 
