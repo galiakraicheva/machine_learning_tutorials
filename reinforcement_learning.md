@@ -63,6 +63,16 @@ This can be expressed as:
 V^\pi(s) = \mathbb{E}_\pi \left[ \sum_{k=0}^{\infty} \gamma^k r_{t+k+1} \mid s_t = s \right]
 \]
 
+The value function for a given policy π is defined as:
+
+V^π(s) = E_π [ r_{t+1} + γ * r_{t+2} + γ^2 * r_{t+3} + ... + γ^{T-1} * r_T | s_t = s ]
+
+This can be expressed as:
+
+V^π(s) = E_π [ Σ (γ^k * r_{t+k+1}) | s_t = s ]
+
+where γ is the discount rate, with 0 ≤ γ ≤ 1, representing the degree to which future rewards are discounted.
+
 where \( \gamma \) is the discount rate, with \( 0 \leq \gamma \leq 1 \), representing the degree to which future rewards are discounted.
 
 
