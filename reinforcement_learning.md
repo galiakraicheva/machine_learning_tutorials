@@ -51,6 +51,8 @@ Further explanation: it might seem that the actual idea of learning contradicts 
 -this means it is contained and the information it holds is contained in the present state (no contradiction with Markov property
 -**value of a state**: how beneficial it is for the agent to be in that state, considering immediate rewards and future rewards it can gain, if it takes the right actions from here on. For example: in a chess game, being in a strong position in the center may not lead to winning immediately but may be more beneficial for future winning because it often leads to better moves and rewards in future. 
 
-The value function for a given policy \( \pi \) is defined as:
+The value function for a given policy $\( \pi \)$ is defined as:
 
 ![Value Function Formula](https://github.com/galiakraicheva/machine_learning_tutorials/blob/main/Value%20Function%20RL%20(credit%20IUAS).png)
+
+
