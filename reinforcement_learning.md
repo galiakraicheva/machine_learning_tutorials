@@ -66,6 +66,26 @@ Explaining the formula further:
 - k: the number of steps from the current moment. The second formula is the generalisation for an infinate game scenario with k from 0 to $\infty$.
 - $\gamma^k$: as we speak about more distant state, the expected reward become less because it is raised to a bigger power. It is like that because of the more uncertain future state.
 
-## Common Algorithms in Reinforcement Learning
-### Q-Learning
+## Types of Reinforcement Learning
+There are two fundamental types of reinforcement learning: model-frre and model-based and they both deal with how the agent learns to maximase the rewards in the environment but they differ in how they handle the environment dynm=amics, meaning how the world works for them. 
+
+### Model-Based Reinforcement Learning
+In model-based reinforcement learning, the agent tries to plan ahead based on the knowledge it has of the environment. It tries to build a model of the environment and tries to predicts what happens as a result of its actions. It learns how the environment works, its dynamics and rules. It uses this knowledge to plan its actions and simulate future steps before it makes a decision. 
+
+Examples of model-based reinforcement learning: 
+- playing chess: the agent tries to understand the rules of the game and at each step, the agent simulates the possible scenarios a couple of moves ahead. It makes the decision based on the result of these simulations. 
+- robot movement: if a robot operates in a closed space, it maps the area and then simulates different scenarios from the location it is to the location it should go to avoid obstacles and find the shortest way. It chooses the best result out of these simulations.
+- medical assistance agent: a possible scenario for an agent that learns as much as possible for the patient's health and tries to simulate the possible scenarios of how different treatments will affect the patient and chooses the one that maximises patient's health oveer time.
+
+### Model-free Reinforcment Learning
+In model-free reinforcemnt learning, the agent learns the best strategies without building a map of the environment or understanding its rules. Instead, it tries different strategies and sees the results from them. It is usually applicable for more complex environments like video-games or self-driving cars. 
+
+Examples of model-free reinforcement learning: 
+- video games: the agent doesn't need to make a whole map of the world since there are many unpredictable elements in it, like other players and hidden obstacles. Instead, it plays different strategies and sees which are the best, given the rewards or penalties it gets.
+- self-driving cars (on a basic level): they don't need to map the whole world with all the roads that they may be exposed to since the most important things to avoid are not static (like pedestrians). Instead, it should learn in what cases it shoudl speed up or push the break based on the rewards it gets as a feedback. 
+
+##Common Algorithms in Reinforcement Learning
+
+### Algorithms for Model-Free Learning: 
+#### Q-Learning
 
