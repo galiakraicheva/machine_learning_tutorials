@@ -84,8 +84,14 @@ Examples of model-free reinforcement learning:
 - video games: the agent doesn't need to make a whole map of the world since there are many unpredictable elements in it, like other players and hidden obstacles. Instead, it plays different strategies and sees which are the best, given the rewards or penalties it gets.
 - self-driving cars (on a basic level): they don't need to map the whole world with all the roads that they may be exposed to since the most important things to avoid are not static (like pedestrians). Instead, it should learn in what cases it shoudl speed up or push the break based on the rewards it gets as a feedback. 
 
-##Common Algorithms in Reinforcement Learning
+## Common Algorithms in Reinforcement Learning
 
 ### Algorithms for Model-Free Learning: 
-#### Q-Learning
+#### The Temporal Difference Process and Q-Learning Algorithm
+The idea of **Temporal Difference**: the agent doesn't need to know the environment in details to make predictions. Instead, it only predicts based on experience. Temporal Difference learning improves the predictions based on the difference between two consecutive predictions (without waiting for the final outcome or simulating different options for the future after the consecutive states). Example: predicting the weather can be modelled well with Temporal Difference. First, you don't need to know all the rules of weather formation (like in model-based learning) and second, the actual weather on Monday, is likely to be correlated to the weather on Tuesday. So if you want to get a prediction of the weather on Monday, you can get the prediction of the weather on Tuesday and update teh weather forcast for Monday. But where do the predictions for Monday and Tuesday come from? The predictions come from the agent's current understanding or estimate of the values of states, which it constantly updates as it gains experience. At the very beginning, the agent has no knowledge so it assigns random values for each day's weather. As it gains experience, it starts making more precise forecasts. When it is well-trained it works like this to predict the Monday weather: 
+- on Sunday, it makes a prediction of the Monday weather, for example, 60% change of sunny weather.
+- On Monday, it makes a prediction that on Tuesday, it will be 70% chance of sunny weather.
+- Now the Temporal Difference learning mechanism compares the Monday forecast (60%) and the Tuesday forecast (70%). Even before the Monday actually happened, it updates the prediction for Monday's weather by increading it just a little because Tuesday is predicted to be even sunnier than Monday. So the update happens based on the difference between the two predictions.
+- Then at the end of Monday, when the actual Monday weather has already happened (let's say it was 80% sunshine), the agent further updates the prediction based on its actual outcome.
+- Now the agent doesn't change the predicted weather for Tuesday based on teh actual data but uses the actual data to refine its model and knolwedge of the environment. 
 
